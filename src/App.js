@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import SortingVisualizer from './SortingVisualizer/SortingVisualizer';
+import Home from './Layout/home';
 
 function App() {
   return (
     <div>
-      <SortingVisualizer/>
+      <Home/>
     </div>
   );
 }
